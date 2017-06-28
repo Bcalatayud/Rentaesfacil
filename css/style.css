@@ -1,0 +1,230 @@
+@font-face {
+    font-family: 'Myrad';
+    font-style: normal;
+    font-weight: lighter;
+    src: local("fonts/MyriadPro-Regular.otf"), format("truetype"); 
+}
+
+
+html,body{
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    width: 100%;
+    color: darkblue;
+	font-family: 'Myrad';
+}
+
+#back{
+    margin: 0 auto;
+    background: url('../img/imagen1A.png') no-repeat;
+    height:70%;
+    color: black;
+	background-size: cover;
+    z-index: 4;
+}
+
+#back2{
+    margin: 0;
+    background-image: url('../img/imagen2_fondo.png');
+	height: 100%;
+	width: 100%;
+	background-size: cover;
+	background-repeat:repeat;
+    z-index: 4;
+	padding: 0;
+	position: absolute;
+	height: 100%;
+	width: 100%;
+}
+
+#back3{
+    margin: 0;
+    background-image: url('../img/imagen3_fondo.png');
+	height: 100%;
+	width: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+    z-index: 4;
+	padding: 0;
+	position: absolute;
+}
+
+#div1{ 
+	border: 2px solid; 
+	border-color: white;
+	margin: 2% 2% 0%; 
+	padding-top: 20px;  
+	border-top-right-radius: 25%;
+	justify-content: center;
+  	align-items: center;
+	height: 90%;
+} 
+
+.back5 img{
+		display: block;
+		margin: auto;
+		padding: 1% 0 0 0;
+		height: 400px;
+		z-index: -100;
+		opacity: 0.5;
+}
+
+.nav1{
+	display: block;
+	width: 49%;
+	float: left;
+}
+
+.nav2{
+	display: block;
+	width: 49%;
+	float: right;
+}
+
+.nav1 img, .nav2 img{
+	height: 70px;
+	position: absolute;
+	top: 60%;
+	display: block;
+}
+
+.nav1 img{
+	right:51%;
+}
+
+p{
+	margin: 1% 10% 0%;
+}
+
+#especial strong{
+  	font-weight: normal;
+  	background-color: #FFFF66;
+  	padding: 2px;
+}
+
+ul li strong1{
+  	font-weight: bolder;
+  	padding: 2px;
+	font-size: 27px;
+}
+
+ul{
+	font-size: 23px;
+	list-style: none
+}
+
+#contacto{
+	color: white;
+}
+
+.social{
+	position: absolute;
+	right:20%;
+/*	display: block;*/
+	color: white;
+}
+
+.social a,.social img{
+	text-decoration: none;
+	color: white;
+	height: 20px;
+}
+
+@media screen and (max-width: 720px) {
+	
+	ul li strong1{
+		font-weight: bolder;
+		padding: 2px;
+		font-size: 18px;
+	}
+	
+	ul, ul li{
+		color: white;
+		font-size: 15px;
+		margin-left: 10%;
+		margin-right: 10%;
+		list-style: none
+	}
+	
+	img{
+		height: 30px;
+	}
+	.social a img{
+		height: 15px;
+	}
+	#contacto{
+		font-size: 15px;
+	}
+	#back{
+
+    	background: url('../img/Moviles.png') no-repeat;
+		background-size: cover;
+	}
+	.nav1 img, .nav2 img{
+		height: 40px;
+		position: absolute;
+		top: 63%;
+	}
+	
+	.nav1 img{
+		right:53%;
+	}
+	
+		.back5 img{
+		display: block;
+		margin: auto;
+		padding: 15% 0 0 0;
+		height: 250px;
+	}
+	
+}
+
+@media screen and (max-width: 560px) {
+	
+	ul li strong1{
+		font-weight: bolder;
+		padding: 2px;
+		font-size: 13px;
+	}
+	
+	ul, ul li{
+		color: white;
+		font-size: 10px;
+		margin-left: 10%;
+		margin-right: 10%;
+		list-style: none
+	}
+	
+	img{
+		height: 30px;
+	}
+	.social a img{
+		height: 15px;
+	}
+	#contacto{
+		font-size: 15px;
+	}
+	#back{
+
+    	background: url('../img/Moviles.png') no-repeat;
+		background-size: cover;
+	}
+	.nav1 img, .nav2 img{
+		height: 40px;
+		position: absolute;
+		top: 63%;
+	}
+	
+	.nav1 img{
+		right:53%;
+	}
+	
+	.back5 img{
+		display: block;
+		margin: auto;
+		padding: 30% 0 0 0;
+		height: 200px;
+	}
+	
+}
