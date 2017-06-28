@@ -1,18 +1,23 @@
 @font-face {
     font-family: 'Myrad';
     font-style: normal;
-    font-weight: lighter;
-    src: local("fonts/MyriadPro-Regular.otf"), format("truetype"); 
+	src: url("fonts/MyriadPro-Regular.woff"),
+		url("fonts/MyriadPro-Regular.ttf"),
+        url("fonts/MyriadPro-Regular.svg") format("svg"),
+		url local ("fonts/MyriadPro-Regular.otf") format("truetype");
+	@import url('fonts/MyriadPro-Regular.woff');
 }
-
-
+@font-face {
+	@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+	font-family: 'PT Sans', sans-serif;
+}
 html,body{
     margin: 0px;
     padding: 0px;
     height: 100%;
     width: 100%;
     color: darkblue;
-	font-family: 'Myrad';
+	font-family: 'Myrad','PT Sans', sans-serif;
 }
 
 #back{
@@ -21,6 +26,7 @@ html,body{
     height:70%;
     color: black;
 	background-size: cover;
+	font-family: 'Myrad','PT Sans', sans-serif;
     z-index: 4;
 }
 
@@ -35,6 +41,7 @@ html,body{
 	padding: 0;
 	position: absolute;
 	height: 100%;
+	font-family: 'Myrad','PT Sans', sans-serif;
 	width: 100%;
 }
 
@@ -74,12 +81,14 @@ html,body{
 	display: block;
 	width: 49%;
 	float: left;
+	font-family: 'Myrad','PT Sans', sans-serif;
 }
 
 .nav2{
 	display: block;
 	width: 49%;
 	float: right;
+	font-family: 'Myrad','PT Sans', sans-serif;
 }
 
 .nav1 img, .nav2 img{
@@ -95,23 +104,29 @@ html,body{
 
 p{
 	margin: 1% 10% 0%;
+	font-family: 'Myrad','PT Sans', sans-serif;
 }
 
 #especial strong{
   	font-weight: normal;
   	background-color: #FFFF66;
   	padding: 2px;
+	font-family: 'Myrad','PT Sans', sans-serif;
 }
 
 ul li strong1{
   	font-weight: bolder;
   	padding: 2px;
 	font-size: 27px;
+	color: white;
+	font-family: 'Myrad','PT Sans', sans-serif;
 }
 
 ul{
 	font-size: 23px;
-	list-style: none
+	list-style: none;
+	font-family: 'Myrad','PT Sans', sans-serif;
+	color: white;
 }
 
 #contacto{
@@ -129,6 +144,15 @@ ul{
 	text-decoration: none;
 	color: white;
 	height: 20px;
+}
+
+@media screen and (max-width: 1024px){
+	ul{
+	font-size: 18px;
+	list-style: none;
+	font-family: 'Myrad','PT Sans', sans-serif;
+	color: white;
+}
 }
 
 @media screen and (max-width: 720px) {
