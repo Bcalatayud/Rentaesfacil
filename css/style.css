@@ -22,12 +22,13 @@ html,body{
 
 #back{
     margin: 0 auto;
-    background: url('../img/imagen1A.png') no-repeat;
-    height:70%;
+    background: url('../img/imagen1A_clean.png') no-repeat;
     color: black;
 	background-size: cover;
 	font-family: 'Myrad','PT Sans', sans-serif;
     z-index: 4;
+	height: 70%;
+	position: relative;
 }
 
 #back2{
@@ -68,13 +69,35 @@ html,body{
 	height: 90%;
 } 
 
+#estatica{
+	height: 30px;
+	margin-bottom: 30px;
+	top: 75%;
+}
+
+#logo{
+	height: 40px;
+	position: absolute;
+	right: 30%;
+	top: 20%;
+}
+
 .back5 img{
 		display: block;
 		margin: auto;
-		padding: 1% 0 0 0;
-		height: 400px;
+		/*padding: 5% 0 0 0;*/
+		height: 300px;
 		z-index: -100;
-		opacity: 0.5;
+		opacity: 0.3;
+	
+	
+		position: absolute;
+    	top: 0;
+    	bottom: 0;
+    	left: 0;
+    	right: 0;
+    	margin: auto;
+		
 }
 
 .nav1{
@@ -89,13 +112,15 @@ html,body{
 	width: 49%;
 	float: right;
 	font-family: 'Myrad','PT Sans', sans-serif;
+	z-index: 10;
 }
 
 .nav1 img, .nav2 img{
 	height: 70px;
 	position: absolute;
-	top: 60%;
+	top: 85%;
 	display: block;
+	z-index: 10;
 }
 
 .nav1 img{
@@ -107,9 +132,11 @@ p{
 	font-family: 'Myrad','PT Sans', sans-serif;
 }
 
+p strong{
+	font-size: 19px;
+}
 #especial strong{
   	font-weight: normal;
-  	background-color: #FFFF66;
   	padding: 2px;
 	font-family: 'Myrad','PT Sans', sans-serif;
 }
@@ -182,7 +209,7 @@ ul{
 	}
 	#back{
 
-    	background: url('../img/Moviles.png') no-repeat;
+    	background: url('../img/Moviles_clean.png') no-repeat;
 		background-size: cover;
 	}
 	.nav1 img, .nav2 img{
@@ -231,7 +258,8 @@ ul{
 	}
 	#back{
 
-    	background: url('../img/Moviles.png') no-repeat;
+    	/*background: url('../img/Moviles.png') no-repeat;*/
+		background: url('../img/Moviles_clean.png') no-repeat;
 		background-size: cover;
 	}
 	.nav1 img, .nav2 img{
