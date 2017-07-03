@@ -181,19 +181,20 @@ ul{
 }
 
 #form-div {
-	background-color:rgba(72,72,72,0.1);
+	background-color:rgba(255,255,255,1);
 	padding-left:35px;
 	padding-right:35px;
 	padding-top:35px;
 	padding-bottom:50px;
 	width: 450px;
 	float: left;
-	left: 50%;
+	left: 70%;
 	position: absolute;
-  margin-top:30px;
+	border: 5px solid darkblue;
+  	margin-top:30px;
 	margin-left: -260px;
-  -moz-border-radius: 7px;
-  -webkit-border-radius: 7px;
+  	/*-moz-border-radius: 7px;
+  	-webkit-border-radius: 7px;*/
 }
 
 input::-webkit-input-placeholder {
@@ -211,15 +212,15 @@ input[placeholder] {
 
 .indata{
     background: none;
-    border: 1px solid white;
-    color: white;
+	border-width: 0;
+    color: orange;
     height: 28px;
     width: 77%;
 }
 .inda{
     background: none;
     border: 1px solid white;
-    color: white;
+    color: orange;
     width: 90%;
     resize: none;
 	height: 100px;
@@ -231,13 +232,72 @@ input[placeholder] {
     font-size: 18px;
 }
 
+.check {
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  top: 10;
+  bottom: 10;
+  left: 10;
+  right: 10;
+  margin: auto;
+	
+}
+.check input {
+  display: none;
+}
+.check input:checked + .box {
+  background-color: orange;
+}
+.check input:checked + .box:after {
+  top: 0;
+}
+.check .box {
+  width: 100%;
+  height: 100%;
+  /*transition: all 1.1s cubic-bezier(0.19, 1, 0.22, 1);*/
+  border: 2px solid orange;
+  background-color: transparent;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  /*box-shadow: 0 5px rgba(0, 0, 0, 0.2);*/
+  z-index: 100000;
+}
+.check .box:after {
+  width: 50%;
+  height: 20%;
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 200%;
+  bottom: 5%;
+  margin: auto;
+}
+
+#etiqueta{
+	padding-left: 70px;
+}
+
 @media screen and (max-width: 1024px){
 	ul{
 	font-size: 18px;
 	list-style: none;
 	font-family: 'Myrad','PT Sans', sans-serif;
 	color: white;
-}
+	}
+	
+	#form-div{
+		left: 25%;
+		right: 25%;
+		width: 450px;
+		margin-left: 0;
+		margin-top: 10px;
+		padding-left: 3%;
+		padding-right: 3%;
+	}
+	
 }
 
 @media screen and (max-width: 720px) {
@@ -297,6 +357,15 @@ input[placeholder] {
 		right: 20%;
 		top: 30%;
 	}
+	
+	#form-div{
+		left: 4%;
+		margin-right: 5%;
+		width: 84%;
+		margin-left: 0;
+		padding-left: 3%;
+		padding-right: 3%;
+	}
 }
 
 @media screen and (max-width: 580px) {
@@ -355,11 +424,15 @@ input[placeholder] {
 	
 	#form-div{
 		left: 4%;
-		margin-right: 3%;
-		width: 86%;
+		margin-right: 5%;
+		width: 84%;
 		margin-left: 0;
 		padding-left: 3%;
 		padding-right: 3%;
+	}
+	
+	.inda{
+		height: 60px;
 	}
 	
 }
