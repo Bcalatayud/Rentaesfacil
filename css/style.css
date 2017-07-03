@@ -180,6 +180,57 @@ ul{
 	height: 20px;
 }
 
+#form-div {
+	background-color:rgba(72,72,72,0.1);
+	padding-left:35px;
+	padding-right:35px;
+	padding-top:35px;
+	padding-bottom:50px;
+	width: 450px;
+	float: left;
+	left: 50%;
+	position: absolute;
+  margin-top:30px;
+	margin-left: -260px;
+  -moz-border-radius: 7px;
+  -webkit-border-radius: 7px;
+}
+
+input::-webkit-input-placeholder {
+  color: #C0C0C0;
+}
+input:-moz-placeholder {
+  color: #C0C0C0;
+}
+input:-ms-input-placeholder {
+  color: #C0C0C0;
+}
+input[placeholder] {
+  color: #C0C0C0;
+}
+
+.indata{
+    background: none;
+    border: 1px solid white;
+    color: white;
+    height: 28px;
+    width: 77%;
+}
+.inda{
+    background: none;
+    border: 1px solid white;
+    color: white;
+    width: 90%;
+    resize: none;
+	height: 100px;
+}
+.btn{
+    background: none;
+    border: none;
+	color:#C0C0C0;
+    font-size: 18px;
+}
+
 @media screen and (max-width: 1024px){
 	ul{
 	font-size: 18px;
@@ -248,7 +299,7 @@ ul{
 	}
 }
 
-@media screen and (max-width: 560px) {
+@media screen and (max-width: 580px) {
 	
 	ul li strong1{
 		font-weight: bolder;
@@ -300,6 +351,15 @@ ul{
 	#logo{
 		top:32%;	
 		height: 30px;
+	}
+	
+	#form-div{
+		left: 4%;
+		margin-right: 3%;
+		width: 86%;
+		margin-left: 0;
+		padding-left: 3%;
+		padding-right: 3%;
 	}
 	
 }
