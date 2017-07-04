@@ -167,6 +167,19 @@ ul{
 	color: white;
 }
 
+#banner{
+  margin-top: 15px;
+  height: 40px;
+  width: 45%;
+  background-color: white;
+  position: absolute;
+}
+
+#banner img{
+	height: 40px;
+	float: right;
+}
+
 .social{
 	position: absolute;
 	right:20%;
@@ -238,7 +251,7 @@ input[placeholder] {
   position: absolute;
   top: 10;
   bottom: 10;
-  left: 10;
+  left: 5;
   right: 10;
   margin: auto;
 	
@@ -276,8 +289,15 @@ input[placeholder] {
   margin: auto;
 }
 
+hr {
+  position: absolute;
+  height: 5px;
+  width: 20px;
+  background-color: orange;
+}
+
 #etiqueta{
-	padding-left: 70px;
+	padding-left: 0px;
 }
 
 @media screen and (max-width: 1024px){
@@ -387,6 +407,12 @@ input[placeholder] {
 	img{
 		height: 30px;
 	}
+	.social{
+	position: absolute;
+	top: 90px;
+	right:20%;
+	color: white;
+}
 	.social a img{
 		height: 15px;
 	}
