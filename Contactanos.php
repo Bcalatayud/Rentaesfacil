@@ -23,14 +23,14 @@
 			<p id="contacto">Mándanos un mensaje por correo describiendo tu necesidad, nosotros responderemos con las opciones que más te podrían interesar, también nos puedes contactar por facebook, ahi encontrarás imagenes de opciones para renta y más información, como la descripción de nuestro fácil y confiable sistema de trabajo.</p>
 			
 			<div id="form-div">
-				<form action="" method="">
+				<form action="c.php" method="post">
 				<p>
-					<hr><label for="nombre" style="padding-left:25px;">Nombre<input id="nombre" placeholder="Nombre" type="text" name="Nombre" value="" class="indata">
+					<hr><label for="nombre" style="padding-left:25px;">Nombre<input id="nombre" placeholder="Nombre" type="text" name="nombre" value="" class="indata">
 					</label> 
 				</p>
 				<hr> <label id="etiqueta" style="padding-left:25px;">Ofreces en renta</label>
 				<label class="check" style="padding-left:0px;">
-					<input name="Busca" type="checkbox" />
+					<input name="ofrezco" type="checkbox" />
 					<div class="box"></div>
 				</label>
 					
@@ -38,7 +38,7 @@
 				Buscas en renta
 				</label>
 				<label class="check" style="padding-left:15px;">
-					<input type="checkbox"/>
+					<input name="busco" type="checkbox"/>
 					<div class="box"></div>
 				</label>
 				

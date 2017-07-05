@@ -19,6 +19,10 @@ html,body{
     color: darkblue;
 	font-family: 'Myrad','PT Sans', sans-serif;
 }
+.mensaje{
+    padding: 50px 50px 50px 50px;
+    color: white;
+}
 
 #back{
     margin: 0 auto;

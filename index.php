@@ -8,12 +8,19 @@
 
 <body>
 	<div id="back">
+
+    <?php if(isset($_REQUEST["c"])):?>
+        <div class="mensaje">
+            ¡Gracias por comunicarte con nosotros!, te responderemos  la brevedad
+        </div>
+    <?php endif; ?>
+
 		<div class="nav1" style="float:left;">
 			<a href="Conocenos.html"><img src="img/conocenos.png" alt="rentaesfacil"></a>
 			<img src="img/imagen1A_2.png" id="estatica">
 		</div>
 		<div class="nav2">
-			<a href="Contactanos.html"><img src="img/contactanos.png" alt="rentaesfacil"></a>
+			<a href="Contactanos.php"><img src="img/contactanos.png" alt="rentaesfacil"></a>
 			<img src="img/imagen1A_1.png" id="estatica">
 		</div>
 		<div>
