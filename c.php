@@ -15,5 +15,5 @@ if($busco){
 
 shell_exec("echo \"Subject: $asunto\n\nNombre: $nombre\nCorreo: $correo\n\n$texto\" | sendmail -f \"$de\" $para");
 
-header("Location: index.html?c=1")
+header("Location: index.php?c=1")
 ?>
