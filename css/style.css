@@ -126,6 +126,7 @@ html,body{
 	float: right;
 	font-family: 'Myrad','PT Sans', sans-serif;
 	z-index: 10;
+	
 }
 
 .nav1 img, .nav2 img{
@@ -134,10 +135,15 @@ html,body{
 	top: 85%;
 	display: block;
 	z-index: 10;
+	opacity: 0.5;
 }
 
 .nav1 img{
 	right:51%;
+}
+
+.nav1 img:hover, .nav2 img:hover{
+	opacity: 1.0
 }
 
 p{
@@ -210,7 +216,7 @@ ul{
 	float: left;
 	left: 70%;
 	position: absolute;
-	border: 5px solid darkblue;
+	border: 5px solid rgba(187,41,187,1.0);
   	margin-top:30px;
 	margin-left: -260px;
   	/*-moz-border-radius: 7px;
