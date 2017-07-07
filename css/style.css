@@ -37,7 +37,8 @@ html,body{
 
 #back2{
     margin: 0;
-    background-image: url('../img/imagen2_fondo.png');
+    /*background-image: url('../img/imagen2_fondo.png');*/
+	background-color: rgba(255,105,0,.75);
 	height: 100%;
 	width: 100%;
 	background-size: cover;
@@ -52,7 +53,8 @@ html,body{
 
 #back3{
     margin: 0;
-    background-image: url('../img/imagen3_fondo.png');
+    /*background-image: url('../img/imagen3_fondo.png');*/
+	background-color: rgba(187,41,187,0.75);
 	height: 100%;
 	width: 100%;
 	background-size: cover;
@@ -63,8 +65,8 @@ html,body{
 }
 
 #div1{ 
-	border: 2px solid; 
-	border-color: white;
+	border: 0px transparent; 
+	border-color: transparent;
 	margin: 2% 2% 0%; 
 	padding-top: 20px;  
 	border-top-right-radius: 25%;
@@ -180,8 +182,9 @@ ul{
 }
 
 #banner img{
-	height: 40px;
+	height: 34px;
 	float: right;
+	margin: 3px;
 }
 
 .social{
@@ -302,6 +305,15 @@ hr {
 
 #etiqueta{
 	padding-left: 0px;
+}
+
+.triangulo_sup {
+    width: 0;
+    height: 0;
+    border-left: 12.5px solid transparent;
+    border-right: 12.5px solid transparent;
+    border-bottom: 25px solid #fff;
+	position: absolute;
 }
 
 @media screen and (max-width: 1024px){

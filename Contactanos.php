@@ -12,6 +12,7 @@
 			<div id="banner">
 				<img src="img/logorentafacolor.png">
 			</div>
+			
 			<div>
 				<img src="img/contactanos.png" height="60px" style="margin-left:50%;">
 			</div>
@@ -25,17 +26,17 @@
 			<div id="form-div">
 				<form action="c.php" method="post">
 				<p>
-					<hr><label for="nombre" style="padding-left:25px;">Nombre<input id="nombre" placeholder="Nombre" type="text" name="nombre" value="" class="indata">
+					<hr><label for="nombre" style="padding-left:25px;">nombre<input id="nombre" placeholder="Nombre" type="text" name="nombre" value="" class="indata">
 					</label> 
 				</p>
-				<hr> <label id="etiqueta" style="padding-left:25px;">Ofreces en renta</label>
+				<hr> <label id="etiqueta" style="padding-left:25px;">ofreces en renta</label>
 				<label class="check" style="padding-left:0px;">
 					<input name="ofrezco" type="checkbox" />
 					<div class="box"></div>
 				</label>
 					
 				<label id="etiqueta" style="padding-left:40px;">
-				Buscas en renta
+				buscas en renta
 				</label>
 				<label class="check" style="padding-left:15px;">
 					<input name="busco" type="checkbox"/>
@@ -44,22 +45,24 @@
 				
 					
 				<p>
-					<hr><label for="correo" style="padding-left:25px;">Correo<input id="correo" placeholder="Correo" type="text" name="correo" value="" class="indata" />
+					<hr><label for="correo" style="padding-left:25px;">correo<input id="correo" placeholder="Correo" type="text" name="correo" value="" class="indata" />
 					</label> 
 				</p>
 				<p>
-					<hr><label for="mensaje" style="padding-left:25px;">Mensaje<textarea name="text" placeholder="Mensaje" class="inda" ></textarea>
+					<hr><label for="mensaje" style="padding-left:25px;">mensaje<textarea name="text" placeholder="mensaje" class="inda" ></textarea>
 					</label>
 				</p>
 				<p>
 				<input type="submit" name="submit" value="Enviar" class="btn"/>
 				</p>
 			</form>
+			
 			</div>
 			<!--<label class="check">
 				<input type="checkbox"/>
 				<div class="box"></div>
 			</label>-->
+			
 		</div>
 		
 				
