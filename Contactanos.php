@@ -62,7 +62,9 @@
 				<input type="checkbox"/>
 				<div class="box"></div>
 			</label>-->
-			
+		<div class="triangulo_sup">
+			</div>		
+	
 		</div>
 		
 				
