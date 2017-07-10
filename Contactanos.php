@@ -62,8 +62,8 @@
 				<input type="checkbox"/>
 				<div class="box"></div>
 			</label>-->
-		<div class="triangulo_sup">
-			</div>		
+		<a href="/Rentaesfacil"><div class="triangulo_sup">
+			</div>		</a>
 	
 		</div>
 		

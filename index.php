@@ -16,11 +16,11 @@
     <?php endif; ?>
 
 		<div class="nav1" style="float:left;">
-			<a href="Conocenos.html"><img src="img/conocenos.png" alt="rentaesfacil"></a>
+			<a href="Conocenos.html"><img class="hover" src="img/conocenos.png" alt="rentaesfacil"></a>
 			<img src="img/imagen1A_2.png" id="estatica">
 		</div>
 		<div class="nav2">
-			<a href="Contactanos.php"><img src="img/contactanos.png" alt="rentaesfacil"></a>
+			<a href="Contactanos.php"><img class="hover" src="img/contactanos.png" alt="rentaesfacil"></a>
 			<img src="img/imagen1A_1.png" id="estatica">
 		</div>
 		<div>

@@ -17,7 +17,7 @@ html,body{
     height: 100%;
     width: 100%;
     color: darkblue;
-	font-family: 'Myrad','PT Sans', sans-serif;
+	font-family: 'Myrad', 'PT Sans', sans-serif;
 }
 .mensaje{
     padding: 50px 50px 50px 50px;
@@ -38,7 +38,7 @@ html,body{
 #back2{
     margin: 0;
     /*background-image: url('../img/imagen2_fondo.png');*/
-	background-color: rgba(255,105,0,.75);
+	background-color: #F79865;
 	height: 100%;
 	width: 100%;
 	background-size: cover;
@@ -54,7 +54,7 @@ html,body{
 #back3{
     margin: 0;
     /*background-image: url('../img/imagen3_fondo.png');*/
-	background-color: rgba(187,41,187,0.75);
+	background-color: #866CAA;
 	height: 100%;
 	width: 100%;
 	background-size: cover;
@@ -79,6 +79,7 @@ html,body{
 	height: 30px;
 	margin-bottom: 30px;
 	top: 75%;
+  opacity:1.0
 }
 
 #logo{
@@ -142,7 +143,7 @@ html,body{
 	right:51%;
 }
 
-.nav1 img:hover, .nav2 img:hover{
+.nav1 img.hover:hover, .nav2 img.hover:hover{
 	opacity: 1.0
 }
 
@@ -216,7 +217,7 @@ ul{
 	float: left;
 	left: 70%;
 	position: absolute;
-	border: 5px solid rgba(187,41,187,1.0);
+	border: 5px solid #844C84;
   	margin-top:30px;
 	margin-left: -260px;
   	/*-moz-border-radius: 7px;
@@ -422,12 +423,12 @@ hr {
 	ul li strong1{
 		font-weight: bolder;
 		padding: 2px;
-		font-size: 13px;
+		/*font-size: 13px;*/
 	}
 	
 	ul, ul li{
 		color: white;
-		font-size: 10px;
+		/*font-size: 10px;*/
 		margin-left: 10%;
 		margin-right: 10%;
 		list-style: none
