@@ -206,9 +206,10 @@ ul{
 }
 
 .social{
-	position: fixed;
-	right:20%;
-/*	display: block;*/
+	position: absolute;
+	top: 10%;
+	right:10%;
+ 	display: block;
 	color: white;
 }
 
@@ -354,6 +355,7 @@ hr {
 	#contacto{
 		line-height: 2.1;
 		margin-top: 50px;
+		font-size: 18px;
 	}
 	
 	.social{
@@ -389,7 +391,6 @@ hr {
 		height: 15px;
 	}
 	#contacto{
-		font-size: 15px;
 	}
 	#back{
     	/*background: url('../img/Moviles_clean.png') no-repeat;

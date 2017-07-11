@@ -10,14 +10,14 @@
 	<div id="back3">
 		<div id="banner">
 				<img src="img/logorentafacolor.png">
-			</div>
+		</div>
+		<div class="social">
+				<a href="https://www.facebook.com/Rentaesfacilcom-239965786490562/"><img src="img/facebook_logo.png"> Rentaesfacil.com</a>  <a><img src="img/whatsapp.png"> WhatsApp: 557110 5129</a>
+		</div>
 		<div id="div1">
 			
 			<div>
 				<img src="img/contactanos.png" height="60px" style="margin-left:50%;">
-			</div>
-			<div class="social">
-				<a href="https://www.facebook.com/Rentaesfacilcom-239965786490562/"><img src="img/facebook_logo.png"> Rentaesfacil.com</a>  <a><img src="img/whatsapp.png"> WhatsApp: 557110 5129</a>
 			</div>
 			<br>
 			<br>
