@@ -8,6 +8,8 @@
 
 <body>
 	<div id="back3">
+		<div id="fondo" style="background-color: #866CAA;">
+		</div>
 		<div id="banner">
 				<img src="img/logorentafacolor.png">
 		</div>

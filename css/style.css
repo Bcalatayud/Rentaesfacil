@@ -46,7 +46,6 @@ html,body{
 	height: 100%;
 	width: 100%;
 	position: fixed;
-	background-color: #F79865;
 	z-index: -100;
 	padding: 0;
 	margin: 0;
@@ -58,11 +57,8 @@ html,body{
 	background-color: #866CAA;
 	height: 100%;
 	width: 100%;
-	background-size: cover;
-	background-repeat: no-repeat;
     z-index: 4;
 	padding: 0;
-	position: absolute;
 }
 
 .back5 img{
@@ -232,7 +228,7 @@ ul{
 	width: 450px;
 	float: left;
 	right: 10%;
-	position: fixed;
+	position: absolute;
 	border: 5px solid #844C84;
   	margin-top:30px;
   	/*-moz-border-radius: 7px;
