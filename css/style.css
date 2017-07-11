@@ -26,8 +26,8 @@ html,body{
 
 #back{
     margin: 0 auto;
-    background: url('../img/imagen1A_clean.png') no-repeat;
-    color: black;
+    /*background: url('../img/imagen1A_clean.png') no-repeat;
+    color: black;*/
 	background-size: cover;
 	font-family: 'Myrad','PT Sans', sans-serif;
     z-index: 4;
@@ -65,6 +65,25 @@ html,body{
 	position: absolute;
 }
 
+.back5 img, .back6 img{
+		display: block;
+		/*padding: 5% 0 0 0;*/
+		height: 300px;
+		z-index: -100;
+		opacity: 0.3;
+		position: absolute;
+    	top: 0;
+    	bottom: 0;
+    	left: 0;
+    	right: 0;
+    	margin: auto;
+		
+}
+.back6 img{
+	width: 100%;
+	height: 100%;
+}
+
 #div1{ 
 	border: 0px transparent; 
 	border-color: transparent;
@@ -98,22 +117,7 @@ html,body{
 	height: 13px;
 }
 
-.back5 img{
-		display: block;
-		/*padding: 5% 0 0 0;*/
-		height: 300px;
-		z-index: -100;
-		opacity: 0.3;
-	
-	
-		position: absolute;
-    	top: 0;
-    	bottom: 0;
-    	left: 0;
-    	right: 0;
-    	margin: auto;
-		
-}
+
 
 .nav1{
 	display: block;
@@ -380,7 +384,6 @@ hr {
 		font-size: 15px;
 	}
 	#back{
-
     	background: url('../img/Moviles_clean.png') no-repeat;
 		background-size: cover;
 	}
@@ -398,15 +401,13 @@ hr {
 		margin: auto;
 		padding: 15% 0 0 0;
 		height: 250px;
+		top: -10%;
 	}
 	
 	#estatica{
 		height: 25px;
 	}
 	
-	.back5 img{
-		top: -10%;
-	}
 	#logo{
 		right: 20%;
 		top: 30%;
@@ -457,7 +458,6 @@ hr {
 		font-size: 15px;
 	}
 	#back{
-
     	/*background: url('../img/Moviles.png') no-repeat;*/
 		background: url('../img/Moviles_clean.png') no-repeat;
 		background-size: cover;

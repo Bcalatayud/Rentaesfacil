@@ -8,7 +8,9 @@
 
 <body>
 	<div id="back">
-
+	<div class="back6">
+			<img src="img/imagen1A_clean.png"> 
+	</div>
     <?php if(isset($_REQUEST["c"])):?>
         <div class="mensaje">
             ¡Gracias por comunicarte con nosotros!, te responderemos  la brevedad
