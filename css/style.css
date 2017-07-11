@@ -123,8 +123,6 @@ html,body{
 	height: 13px;
 }
 
-
-
 .nav1{
 	display: block;
 	width: 49%;
@@ -171,7 +169,6 @@ p strong{
   	padding: 2px;
 	font-family: 'Myrad','PT Sans', sans-serif;
 }
-
 
 ul li strong1{
   	font-weight: bolder;
@@ -225,14 +222,13 @@ ul{
 	padding-left:35px;
 	padding-right:35px;
 	padding-top:35px;
-	padding-bottom:50px;
+	padding-bottom:35px;
 	width: 450px;
 	float: left;
-	left: 70%;
-	position: absolute;
+	right: 10%;
+	position: fixed;
 	border: 5px solid #844C84;
   	margin-top:30px;
-	margin-left: -260px;
   	/*-moz-border-radius: 7px;
   	-webkit-border-radius: 7px;*/
 }
@@ -346,11 +342,7 @@ hr {
 	}
 	
 	#form-div{
-		left: 25%;
-		right: 25%;
 		width: 450px;
-		margin-left: 0;
-		margin-top: 10px;
 		padding-left: 3%;
 		padding-right: 3%;
 	}
@@ -420,12 +412,12 @@ hr {
 	}
 	
 	#form-div{
-		left: 4%;
+		/*left: 4%;
 		margin-right: 5%;
 		width: 84%;
 		margin-left: 0;
 		padding-left: 3%;
-		padding-right: 3%;
+		padding-right: 3%;*/
 	}
 	.triangulo_sup {
 	top: 90%;
