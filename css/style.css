@@ -39,10 +39,11 @@ html,body{
     margin: 0;
     /*background-image: url('../img/imagen2_fondo.png');*/
 	background-color: #F79865;
+	background-size: cover;
+	background-repeat: repeat;
 	height: 100%;
 	width: 100%;
-	background-size: cover;
-	background-repeat:repeat;
+	position: fixed;
     z-index: 4;
 	padding: 0;
 	position: absolute;
@@ -67,7 +68,7 @@ html,body{
 #div1{ 
 	border: 0px transparent; 
 	border-color: transparent;
-	margin: 2% 2% 0%; 
+	margin: 0% 2% 0% 2%; 
 	padding-top: 20px;  
 	border-top-right-radius: 25%;
 	justify-content: center;
@@ -148,7 +149,7 @@ html,body{
 }
 
 p{
-	margin: 1% 10% 0%;
+	margin: 1% 7% 0% 5%;
 	font-family: 'Myrad','PT Sans', sans-serif;
 }
 
@@ -160,6 +161,7 @@ p strong{
   	padding: 2px;
 	font-family: 'Myrad','PT Sans', sans-serif;
 }
+
 
 ul li strong1{
   	font-weight: bolder;
@@ -174,6 +176,7 @@ ul{
 	list-style: none;
 	font-family: 'Myrad','PT Sans', sans-serif;
 	color: white;
+	
 }
 
 #contacto{
@@ -181,7 +184,7 @@ ul{
 }
 
 #banner{
-  margin-top: 15px;
+  margin-top: 30px;
   height: 40px;
   width: 45%;
   background-color: white;
@@ -358,13 +361,17 @@ hr {
 	ul, ul li{
 		color: white;
 		font-size: 15px;
-		margin-left: 10%;
-		margin-right: 10%;
-		list-style: none
+		margin-left: 3%;
+		margin-right: 3%;
+		list-style: none;
+		padding:0;
 	}
 	
 	img{
 		height: 30px;
+	}
+	.social {
+		margin-top: 25px;
 	}
 	.social a img{
 		height: 15px;
@@ -429,8 +436,8 @@ hr {
 	ul, ul li{
 		color: white;
 		/*font-size: 10px;*/
-		margin-left: 10%;
-		margin-right: 10%;
+		margin-left: 5%;
+		margin-right: 5%;
 		list-style: none
 	}
 	
@@ -439,7 +446,7 @@ hr {
 	}
 	.social{
 	position: absolute;
-	top: 90px;
+	top: 50px;
 	right:20%;
 	color: white;
 }

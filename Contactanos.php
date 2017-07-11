@@ -8,10 +8,10 @@
 
 <body>
 	<div id="back3">
-		<div id="div1">
-			<div id="banner">
+		<div id="banner">
 				<img src="img/logorentafacolor.png">
 			</div>
+		<div id="div1">
 			
 			<div>
 				<img src="img/contactanos.png" height="60px" style="margin-left:50%;">
