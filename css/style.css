@@ -35,14 +35,9 @@ html,body{
 #back2{
     margin: 0;
 	background-color: #F79865;
-	background-size: cover;
-	background-repeat: repeat;
-	height: 100%;
-	width: 100%;
 	position: fixed;
     z-index: 4;
 	padding: 0;
-	position: absolute;
 	height: 100%;
 	font-family: 'Myrad','PT Sans', sans-serif;
 	width: 100%;
