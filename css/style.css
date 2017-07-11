@@ -26,9 +26,6 @@ html,body{
 
 #back{
     margin: 0 auto;
-    /*background: url('../img/imagen1A_clean.png') no-repeat;
-    color: black;*/
-	/*background-size: cover;*/
 	font-family: 'Myrad','PT Sans', sans-serif;
     z-index: 4;
 	height: 70%;
@@ -37,7 +34,6 @@ html,body{
 
 #back2{
     margin: 0;
-    /*background-image: url('../img/imagen2_fondo.png');*/
 	background-color: #F79865;
 	background-size: cover;
 	background-repeat: repeat;
@@ -92,7 +88,6 @@ html,body{
     left: 0;
     right: 0;
     margin: auto;
-	
 }
 
 #div1{ 
