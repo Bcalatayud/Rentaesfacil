@@ -188,7 +188,7 @@ ul{
 
 #contacto{
 	color: white;
-	
+	font-size: 18px;
 }
 
 #banner{
@@ -213,7 +213,7 @@ ul{
 	color: white;
 }
 
-.social a,.social img{
+.social a, .social img{
 	text-decoration: none;
 	color: white;
 	height: 20px;
@@ -355,12 +355,9 @@ hr {
 	#contacto{
 		line-height: 2.1;
 		margin-top: 50px;
-		font-size: 18px;
 	}
 	
 	.social{
-		position: fixed;
-		margin-top: 50px;
 	}
 }
 
@@ -456,10 +453,8 @@ hr {
 	}
 	
 	.social{
-	position: absolute;
-	right:20%;
-	color: white;
 	}
+	
 	.social a img{
 		height: 15px;
 	}
