@@ -29,9 +29,11 @@
 		</div>
 		<div class="back5">
 			<img src="img/foto%20portada%20RF.jpg"> 
-			<img src="img/logorentafacilblanco.png" id="logo">
-
 		</div>
+		<div class="back7">
+			<img src="img/logorentafacilblanco.png" id="logo">
+		</div>
+		
 	</div>
 	<div>
 		<br>
