@@ -64,7 +64,7 @@
 				<input type="checkbox"/>
 				<div class="box"></div>
 			</label>-->
-		<a href="/Rentaesfacil/Conocenos.html"><div class="triangulo_sup">
+		<a href="/Rentaesfacil/Conocenos.html"><div class="triangulo_sup" id="cont">
 			</div>		</a>
 	
 		</div>

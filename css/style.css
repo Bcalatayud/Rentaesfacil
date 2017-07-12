@@ -337,10 +337,24 @@ hr {
     height: 0;
     border-left: 12.5px solid transparent;
     border-right: 12.5px solid transparent;
-    border-bottom: 25px solid #fff;
+    border-bottom: 25px solid transparent;
 	position: absolute;
 	top: 90%;
+	left:7%;
 }
+
+#cont:hover, #cont1:hover{
+	border-bottom-color: #fff;
+}
+
+#cont{
+	border-bottom-color: #F79865;
+}
+
+#cont1{
+	border-bottom-color: #866CAA;
+}
+
 
 @media screen and (max-width: 1024px){
 	ul{
@@ -356,7 +370,7 @@ hr {
 	}
 	.triangulo_sup {
 	position: absolute;
-	top: 90%;
+	top: 95%;
 	}
 	#contacto{
 		line-height: 2.1;
@@ -370,7 +384,9 @@ hr {
 	}
 
   .social{
-  }
+	  left: 50%;
+	  font-size: 1.1em;
+  	}
 	
 }
 
