@@ -14,7 +14,7 @@
 				<img src="img/logorentafacolor.png">
 		</div>
 		<div class="social">
-				<a href="https://www.facebook.com/Rentaesfacilcom-239965786490562/"><img src="img/facebook_logo.png"> Rentaesfacil.com</a>  <a><img src="img/whatsapp.png"> WhatsApp: 557110 5129</a>
+				<a href="https://www.facebook.com/Rentaesfacilcom-239965786490562/"><img src="img/facebook_logo.png"> rentaesfacil.com</a>  <a><img src="img/whatsapp.png"> whatsapp 557110 5129</a>
 		</div>
 		<div id="div1">
 			
@@ -23,7 +23,7 @@
 			</div>
 			<br>
 			<br>
-			<p id="contacto">Mándanos un mensaje por correo describiendo tu necesidad, nosotros responderemos con las opciones que más te podrían interesar, también nos puedes contactar por facebook, ahi encontrarás imagenes de opciones para renta y más información, como la descripción de nuestro fácil y confiable sistema de trabajo.</p>
+			<p id="contacto">Mándanos un mensaje por correo que describa tu necesidad, responderemos con las opciones que más te podrían interesar, también nos puedes contactar por facebook, ahi encontrarás imagenes de opciones para renta y más información, como la descripción de nuestro fácil y confiable sistema de trabajo.</p>
 			
 			<div id="form-div">
 				<form action="c.php" method="post">
@@ -64,7 +64,7 @@
 				<input type="checkbox"/>
 				<div class="box"></div>
 			</label>-->
-		<a href="/Rentaesfacil"><div class="triangulo_sup">
+		<a href="/Rentaesfacil/Conocenos.html"><div class="triangulo_sup">
 			</div>		</a>
 	
 		</div>

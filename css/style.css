@@ -109,10 +109,10 @@ html,body{
 }
 
 #logo{
-	height: 40px;
-	position: absolute;
-	right: 30%;
-	top: 20%;
+	height: 80px;
+	position: relative;
+  opacity:1.0;
+  right:0px;
 }
 
 #rentafacil{
@@ -189,6 +189,13 @@ ul{
 #contacto{
 	color: white;
 	font-size: 18px;
+  text-align: justify;
+  text-justify: newspaper;
+}
+
+.justify{
+  text-align: justify;
+  text-justify: newspaper;
 }
 
 #banner{
@@ -338,7 +345,7 @@ hr {
 @media screen and (max-width: 1024px){
 	ul{
 	list-style: none;
-	font-size: 2.5em;
+	font-size: 2.0em;
 	color: white;
 	}
 	
@@ -361,9 +368,10 @@ hr {
 		padding: 2px;
 		font-size: 2em;
 	}
+
+  .social{
+  }
 	
-	.social{
-	}
 }
 
 @media screen and (max-width: 720px) {
