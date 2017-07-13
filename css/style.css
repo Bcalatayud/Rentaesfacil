@@ -27,14 +27,14 @@ html,body{
 #back{
     margin: 0 auto;
 	font-family: 'Myrad','PT Sans', sans-serif;
-    z-index: 4;
+    z-index: 0;
 	height: 70%;
 	position: relative;
 }
 
 #back2{
     margin: 0;
-	background-color: #F79865;
+	background-color: #FF6A00;
     z-index: 4;
 	padding: 0;
 	height: 100%;
@@ -54,7 +54,7 @@ html,body{
 #back3{
     margin: 0;
     /*background-image: url('../img/imagen3_fondo.png');*/
-	background-color: #866CAA;
+	background-color: #4E008B;
 	height: 100%;
 	width: 100%;
     z-index: 4;
@@ -78,12 +78,13 @@ html,body{
 	top: 0%;
 	right: 0%;
 }
+
 .back5 img{
 	display: block;
 	/*padding: 5% 0 0 0;*/
 	height: 300px;
-	z-index: -100;
-	opacity: 0.3;
+	z-index: 1;
+	opacity:1.0;
 	position: absolute;
 	top: 0;
 	bottom: 0;

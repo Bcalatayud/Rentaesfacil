@@ -9,7 +9,7 @@
 <body>
 	<div id="back">
 	<div class="back6">
-			<img src="img/imagen1A_clean.png"> 
+			<img src="img/imagen1A_clean_2.png"> 
 	</div>
     <?php if(isset($_REQUEST["c"])):?>
         <div class="mensaje">
@@ -19,20 +19,16 @@
 
 		<div class="nav1" style="float:left;">
 			<a href="Conocenos.html"><img class="hover" src="img/conocenos.png" alt="rentaesfacil"></a>
-			<img src="img/imagen1A_2.png" id="estatica">
+			<!--<img src="img/imagen1A_2.png" id="estatica">-->
 		</div>
 		<div class="nav2">
 			<a href="Contactanos.php"><img class="hover" src="img/contactanos.png" alt="rentaesfacil"></a>
-			<img src="img/imagen1A_1.png" id="estatica">
-		</div>
-		<div>
+			<!--<img src="img/imagen1A_1.png" id="estatica">-->
 		</div>
 		<div class="back5">
-			<img src="img/foto%20portada%20RF.jpg"> 
+			<img src="img/imagenpantalla1.png"> 
 		</div>
-		<div class="back7">
-			<img src="img/logorentafacilblanco.png" id="logo">
-		</div>
+		
 		
 	</div>
 	<div>
