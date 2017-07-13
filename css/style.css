@@ -367,9 +367,9 @@ hr {
     border-left: 12.5px solid transparent;
     border-right: 12.5px solid transparent;
     border-bottom: 25px solid transparent;
-	position: absolute;
-	top: 90%;
-	left:7%;
+	 position: fixed;
+	 top: 90%;
+	 left:7%;
 }
 
 #cont:hover, #cont1:hover{
