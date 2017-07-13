@@ -8,22 +8,25 @@
 
 <body>
 	<div id="back3">
-		<div id="fondo" style="background-color: #866CAA;">
+		<div id="fondo" style="background-color: #4E008B;">
 		</div>
 		<div id="banner">
-				<img src="img/logorentafacolor.png">
+				<img src="img/imagen3.png">
+		</div>
+		<div class="logo_rentafacil">
+			 <img src="img/logorentafacilblanco.png">
+		</div>
+		<div class="logo_contactanos">
+			 <img src="img/contactanos.png">
 		</div>
 		<div class="social">
-				<a href="https://www.facebook.com/Rentaesfacilcom-239965786490562/"><img src="img/facebook_logo.png"> rentaesfacil.com</a>  <a><img src="img/whatsapp.png"> whatsapp 557110 5129</a>
+				<a href="https://www.facebook.com/Rentaesfacilcom-239965786490562/"><img src="img/facebook_logo.png"> rentaesfacil.com</a>  <a><img src="img/whatsapp.png"> 557110 5129</a>
 		</div>
 		<div id="div1">
 			
-			<div>
-				<img src="img/contactanos.png" height="60px" style="margin-left:50%;">
-			</div>
 			<br>
 			<br>
-			<p id="contacto">Mándanos un mensaje por correo que describa tu necesidad, responderemos con las opciones que más te podrían interesar, también nos puedes contactar por facebook, ahi encontrarás imagenes de opciones para renta y más información, como la descripción de nuestro fácil y confiable sistema de trabajo.</p>
+			<p id="contacto">Mándanos un mensaje por correo describiendo tu necesidad, nosotros responderemos con las opciones que más te podrían interesar, también nos puedes contactar por facebook, ahi encontrarás imágenes de opciones para renta y más información, como la descripción de nuestro fácil y confiable sistema de trabajo.</p>
 			
 			<div id="form-div">
 				<form action="c.php" method="post">
